@@ -1,0 +1,92 @@
+.group-4529 {
+  background-color: var(--licorice);
+  border-radius: 12px;
+  display: flex;
+  cursor: pointer;
+}
+.btnspace {
+  margin-left: 20px;
+}
+
+.apple-g {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+.apple-logo {
+  height: 16px;
+
+  object-fit: cover;
+  /* width: 15px; */
+  margin-left: 0.2rem;
+}
+
+.group-4529 {
+  background-color: var(--licorice);
+  border-radius: 12px;
+  display: flex;
+}
+
+/* .apple-g-1 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 10px;
+
+  position: relative;
+} */
+
+.play-logo {
+  height: 15px;
+  object-fit: cover;
+  /* width: 15px; */
+}
+
+.group-1096 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 30px;
+  /* margin-left: 11px; */
+  min-width: 80px;
+}
+
+.overlap-group {
+  /* height: 36px; */
+
+  /* flex-direction: column; */
+  /* position: relative; */
+  /* width: 85px; */
+}
+
+.coming-soon {
+  /* left: 0;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  top: 0; */
+
+  white-space: nowrap;
+}
+
+.x-store {
+  /* left: 0;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  top: 16px; */
+  white-space: nowrap;
+}
+
+.group-1096-1 {
+  /* margin-left: 10px; */
+}

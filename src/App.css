@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900,600,800');
+@font-face {
+  font-family: 'CenturyGothic-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://fonts.animaapp.com/CenturyGothic-Regular')
+    format('truetype');
+}
+
+.poppins-semi-bold-white-13px {
+  color: var(--white-darkmode);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-semi-bold-white-13px {
+  color: var(--white-darkmode);
+  font-family: var(--font-family-poppins-semibold);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-normal-white-13px {
+  color: var(--white-darkmode);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs2);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-medium-white-14px {
+  color: var(--white-darkmode);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-semi-bold-white-14px {
+  color: var(--white-darkmode);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-semi-bold-dodger-blue-13px {
+  color: var(--mv--primary);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xs2);
+  font-weight: 600;
+  font-style: normal;
+}
+.sub-header-text {
+  font-family: var(--font-family-poppins-bold);
+  font-size: var(--font-size-m2);
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-semi-bold-java-9px {
+  color: var(--mvsuccess);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-weight: 600;
+  font-style: normal;
+}
+.form--label {
+  font-family: var(--font-family-poppins-semibold);
+  font-size: var(--font-size-s2);
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-regular-normal-ebony-clay-14px {
+  color: var(--mvfore-blue);
+  font-family: var(--font-family-poppins-regular);
+  font-size: var(--font-size-s2);
+  font-weight: 400;
+  font-style: normal;
+}
+.valuesanspro-medium-white-10px {
+  color: var(--white-original);
+  font-family: var(--font-family-valuesans_pro-medium);
+  font-size: var(--font-size-s2);
+  font-weight: 500;
+  font-style: normal;
+}
+.poppins-semi-bold-mirage-9px {
+  color: var(--mvdeep-blue-bg);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs);
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-semi-bold-white-15px {
+  color: var(--white-original);
+  font-family: var(--font-family-poppins-semibold);
+  font-size: 15px;
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-semi-bold-white-12px {
+  color: var(--white-original);
+  font-family: var(--font-family-montserrat);
+  font-size: 8px;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-medium-dodger-blue-20px {
+  color: var(--mv--primary);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl2);
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-semi-bold-white-14px {
+  color: var(--white-original);
+  font-family: var(--font-family-montserrat);
+  font-size: 10px;
+  font-weight: 600;
+  font-style: normal;
+}
+.form--label {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s2);
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-style: normal;
+}
+.montserrat-extra-bold-licorice-60px {
+  color: var(--licorice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  font-style: normal;
+}
+.poppins-semi-bold-mirage-9px {
+  color: var(--mvdeep-blue-bg);
+  font-family: var(--font-family-poppins-semibold);
+  font-size: 9px;
+  font-weight: 600;
+  font-style: normal;
+}
+.body-regular {
+  font-family: var(--font-family-poppins-regular);
+  font-size: var(--font-size-m2);
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-normal-ebony-clay-14px {
+  color: var(--mvfore-blue);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s2);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-semi-bold-white-14px {
+  color: var(--white-darkmode);
+  font-family: var(--font-family-poppins-semibold);
+  font-size: var(--font-size-s2);
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-semi-bold-white-15px {
+  color: var(--white-original);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+.centurygothic-regular-normal-scarpa-flow-24px {
+  color: var(--scarpa-flow);
+  font-family: var(--font-family-centurygothic-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+.centurygothic-bold-steel-gray-30px {
+  color: var(--steel-gray);
+  font-family: var(--font-family-centurygothic-bold);
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+}
+.border-0-5px-mvdeep-blue-bg {
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: var(--mvdeep-blue-bg);
+}
+.sub-header-text {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m2);
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-semi-bold-java-9px {
+  color: var(--mvsuccess);
+  font-family: var(--font-family-poppins-semibold);
+  font-size: 9px;
+  font-weight: 600;
+  font-style: normal;
+}
+.body-regular {
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m2);
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+.centurygothic-regular-normal-steel-gray-32px {
+  color: var(--steel-gray);
+  font-family: var(--font-family-centurygothic-regular);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.border-2px-scandal {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--scandal);
+}
+.poppins-regular-normal-white-13px {
+  color: var(--white-darkmode);
+  font-family: var(--font-family-poppins-regular);
+  font-size: var(--font-size-xs2);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-medium-dodger-blue-20px {
+  color: var(--mv--primary);
+  font-family: var(--font-family-poppins-medium);
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+}
+.montserrat-extra-bold-white-40px {
+  color: var(--white-original);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  font-style: normal;
+}

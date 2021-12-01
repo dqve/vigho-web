@@ -1,0 +1,57 @@
+.sec3Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.text-5 {
+  text-align: center;
+  margin-block: 15px;
+}
+
+.span1 {
+  color: var(--green-haze);
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  line-height: 45px;
+  margin-right: 6px;
+}
+
+.text-6 {
+  color: var(--steel-gray);
+  font-family: var(--font-family-century_gothic);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 21px;
+
+  text-align: center;
+}
+
+.span2 {
+  color: var(--green-haze);
+  font-family: var(--font-family-centurygothic-regular);
+}
+
+.sec3img-con {
+  margin-inline: 2rem;
+  display: flex;
+  margin-top: 4rem;
+}
+.sec3-img {
+  display: flex;
+  flex: 1;
+  max-height: 300px;
+  width: 100%;
+  object-fit: contain;
+  -webkit-transform: rotate(1.1deg);
+  -moz-transform: rotate(1.1deg);
+  -ms-transform: rotate(1.1deg);
+  -o-transform: rotate(1.1deg);
+  transform: rotate(1.1deg);
+}

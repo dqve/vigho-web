@@ -1,0 +1,141 @@
+.group-54748 {
+  background-color: var(--green-haze);
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+.group-54437 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-inline: 4rem;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.group-54435 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vigho-tech-ltd {
+  color: var(--white-original);
+  font-family: var(--font-family-centurygothic-bold);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.group-54749 {
+  align-items: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 1rem;
+}
+
+.group-5024 {
+  align-items: flex-end;
+  display: flex;
+}
+
+.about,
+.faq {
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+.place {
+  letter-spacing: 0;
+  line-height: 14px;
+  white-space: nowrap;
+}
+
+.group-54702 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 15px;
+}
+
+.group-5026 {
+  align-items: flex-end;
+  display: flex;
+  margin-left: 15px;
+}
+
+.group-4922 {
+  align-self: flex-start;
+  display: flex;
+  height: 40px;
+}
+
+.group-3284 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.group-3285 {
+  align-items: center;
+  background-color: var(--white2);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.group-3286 {
+  align-items: flex-end;
+  background-color: var(--white2);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+
+  margin-left: 10px;
+}
+
+.group-3287 {
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white2);
+  border-radius: 20px;
+  display: flex;
+
+  justify-content: flex-end;
+  margin-left: 10px;
+}
+
+.group-3283 {
+  height: 22px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.twitter {
+  height: 22px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.facebook {
+  height: 22px;
+  object-fit: cover;
+  width: 22px;
+}
+
+.copyright {
+  align-self: center;
+  color: var(--white-original);
+  font-family: var(--font-family-centurygothic-regular);
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+  opacity: 0.4;
+  text-align: center;
+  white-space: nowrap;
+}

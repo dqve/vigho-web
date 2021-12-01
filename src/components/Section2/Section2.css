@@ -1,0 +1,66 @@
+.component-4-1 {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-3 {
+  flex: 1;
+  margin-block: 12px;
+
+  letter-spacing: 0;
+  line-height: 45px;
+  margin-right: -2px;
+  text-align: center;
+}
+.text-4 {
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.sec2Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-inline: 1rem;
+  margin-bottom: 5rem;
+}
+
+.group-6112 {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.title {
+  color: var(--green-haze);
+  flex: 1;
+  font-family: var(--font-family-centurygothic-regular);
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 0;
+  line-height: 34px;
+  margin-bottom: -2px;
+  white-space: nowrap;
+}
+
+.sec2img-con {
+  margin-inline: 2rem;
+  display: flex;
+  margin-top: 4rem;
+}
+.sec2-img {
+  display: flex;
+  flex: 1;
+  max-height: 800px;
+  width: 100%;
+  object-fit: contain;
+  -webkit-transform: rotate(1.1deg);
+  -moz-transform: rotate(1.1deg);
+  -ms-transform: rotate(1.1deg);
+  -o-transform: rotate(1.1deg);
+  transform: rotate(1.1deg);
+}

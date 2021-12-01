@@ -1,0 +1,47 @@
+:root {
+  --licorice: rgba(17, 17, 17, 1);
+  --mvdeep-blue-bg: rgba(20, 27, 45, 1);
+  --green-haze: rgba(21, 160, 93, 1);
+  --mvsuccess: rgba(27, 197, 189, 1);
+  --steel-gray: rgba(28, 33, 55, 1);
+  --mvfore-blue: rgba(28, 37, 57, 1);
+  --mvselected-blue: rgba(31, 41, 64, 1);
+  --mv--primary: rgba(54, 153, 255, 1);
+  --scarpa-flow: rgba(91, 87, 96, 1);
+  --scandal: rgba(201, 247, 245, 0.502);
+  --mvsuccess-light: rgba(201, 247, 245, 1);
+  --bon-jour: rgba(224, 224, 224, 1);
+  --mvlight-blue: rgba(225, 239, 255, 1);
+  --athens-gray: rgba(238, 241, 245, 1);
+  --mvred: rgba(246, 78, 96, 1);
+  --mv--warning: rgba(255, 168, 0, 1);
+  --mvlight-red: rgba(255, 226, 229, 1);
+  --white2: rgba(255, 255, 255, 0.02);
+  --white: rgba(255, 255, 255, 0.298);
+  --medium-emphasis: rgba(255, 255, 255, 0.6);
+  --white-darkmode: rgba(255, 255, 255, 0.871);
+  --white-original: rgba(255, 255, 255, 1);
+
+  --font-size-xxs: 9px;
+  --font-size-xs: 12px;
+  --font-size-m: 16px;
+  --font-size-l: 18px;
+  --font-size-xl: 34px;
+  --font-size-xxl: 50px;
+  --font-size-s2: 8px;
+  --font-size-m2: 16px;
+  --font-size-xs2: 13px;
+  --font-size-xl2: 15px;
+
+  --font-family-century_gothic: 'Century Gothic';
+  --font-family-centurygothic-bold: 'CenturyGothic-Bold';
+  --font-family-centurygothic-regular: 'CenturyGothic-Regular';
+  --font-family-gtwalsheim_pro-regular: 'GTWalsheim Pro-Regular';
+  --font-family-montserrat: 'Montserrat';
+  --font-family-poppins: 'Poppins';
+  --font-family-poppins-bold: 'Poppins-Bold';
+  --font-family-poppins-medium: 'Poppins-Medium';
+  --font-family-poppins-regular: 'Poppins-Regular';
+  --font-family-poppins-semibold: 'Poppins-SemiBold';
+  --font-family-valuesans_pro-medium: 'ValueSans Pro-Medium';
+}
