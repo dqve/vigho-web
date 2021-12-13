@@ -12,9 +12,7 @@
   justify-content: space-between;
   flex-direction: row;
   padding: 0;
-
   width: 100%;
-
   padding-inline: 3.5rem;
 }
 .scrolled {

@@ -7,6 +7,20 @@
     format('truetype');
 }
 
+.gtwalsheimpro-bold-licorice-50px-2 {
+  color: var(--licorice);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+}
+.gtwalsheimpro-bold-green-haze-50px {
+  color: var(--green-haze);
+  font-family: var(--font-family-montserrat);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  font-style: normal;
+}
+
 .poppins-semi-bold-white-13px {
   color: var(--white-darkmode);
   font-family: var(--font-family-poppins);
