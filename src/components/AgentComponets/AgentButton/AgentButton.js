@@ -1,10 +1,10 @@
 import React from 'react'
 import './AgentButton.css'
 
-const AgentButton = ({ text }) => {
+const AgentButton = ({ text, className, className2 }) => {
   return (
-    <div className='agent-btn'>
-      <div className='agent-text'>{text}</div>
+    <div className={` ${className || ' agent-btn'}`}>
+      <div className={` ${className2 || ' agent-text'}`}>{text}</div>
     </div>
   )
 }

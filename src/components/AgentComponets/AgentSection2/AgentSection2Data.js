@@ -36,7 +36,7 @@ export const agentSection2Data = {
   text7: (
     <>
       We make it easy to provide quality access to <br /> financial services in
-      your local communities at <br /> affordable fees
+      your local communities <br /> at affordable fees
     </>
   ),
 }

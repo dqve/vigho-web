@@ -44,6 +44,7 @@
 .ang-sec2-text2 {
   display: flex;
   align-items: center;
+  margin-inline: 0.7;
 }
 
 .empty {
@@ -106,7 +107,6 @@
   font-weight: 400;
   color: #111111;
   opacity: 0.6;
-  white-space: nowrap;
 }
 
 @media only screen and (max-width: 700px) {
@@ -125,9 +125,9 @@
     margin-top: 3rem;
   }
   .ang-sec2-row {
-    justify-content: center;
     margin-top: 3rem;
-    margin-bottom: 1rems;
+    margin-bottom: 1rem;
+    margin-inline: 0.5rem;
   }
 
   .ang-sec2-img {
