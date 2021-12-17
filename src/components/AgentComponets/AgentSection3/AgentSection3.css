@@ -1,6 +1,11 @@
 .agn-sec3-con {
   display: flex;
   margin-top: 7rem;
+  margin-inline: 1rem;
+}
+
+.ang-main {
+  display: flex;
 }
 
 .ang-sec3-info {
@@ -11,9 +16,8 @@
 
 .ang-sec3-wrap {
   display: flex;
-  margin-inline: 1rem;
+  margin-right: 4rem;
   flex-direction: column;
-  padding-right: 3rem;
 }
 .ang-sec3-img {
   display: flex;

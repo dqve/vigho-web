@@ -119,6 +119,10 @@
   .empty {
     display: none;
   }
+  .ang-sec2-text {
+    align-items: center;
+    width: 100%;
+  }
   .ang-sec2-text2 {
     align-items: center;
     justify-content: center;
