@@ -1,0 +1,26 @@
+.ang-6-con {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ang-6-text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ang-6-text4 {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 600;
+  margin-block: 0.7rem;
+  font-family: var(--font-family-montserrat);
+  font-size: 14.6px;
+  line-height: 20px;
+}

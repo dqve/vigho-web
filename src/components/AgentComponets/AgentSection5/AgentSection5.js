@@ -28,7 +28,7 @@ const AgentSection5 = () => {
             </div>
           </Grid>
 
-          <Grid item sm={12} md={6} className='ang-sec5-img'>
+          <Grid item sm={12} md={6} xs={12} className='ang-sec5-img'>
             <div className='ang-image-5'>
               <img
                 className='ang-sec5-main-img'

@@ -16,7 +16,7 @@
 
 .ang-sec3-wrap {
   display: flex;
-  margin-right: 4rem;
+  margin-right: 5rem;
   flex-direction: column;
 }
 .ang-sec3-img {
@@ -39,7 +39,7 @@
     margin-bottom: 2rem !important;
   }
   .ang-sec3-wrap {
-    padding-right: 0;
+    margin-right: 0;
   }
 
   .ang-sec3-img {

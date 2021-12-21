@@ -79,22 +79,21 @@
   flex: 1 !important;
   align-items: center !important;
   justify-content: flex-start !important;
-  /* margin-top: 2.4rem !important;
-  margin-left: 1rem !important; */
 }
 
 .ang-sec4-info2 {
   padding-top: 5rem;
   display: flex !important;
   align-items: flex-end !important;
-  min-width: 372px;
+  /* min-width: 372px; */
 }
 
 .ang-sec4-text-row {
   margin-top: 15px;
   display: flex;
   flex-direction: row;
-  max-width: 336px;
+  max-width: 270px;
+  width: 100%;
 
   overflow: hidden;
   /* flex-wrap: wrap; */
@@ -149,4 +148,7 @@
     align-items: center;
     width: 100%;
   }
+  /* .ang-sec4-info2 {
+    min-width: 0px;
+  } */
 }
