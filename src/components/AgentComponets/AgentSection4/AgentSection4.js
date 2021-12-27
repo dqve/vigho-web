@@ -17,7 +17,7 @@ const AgentSection4 = () => {
       <div className='ang4-main'>
         <div className='ang4-bg'>
           <Grid container className='ang4-con2'>
-            <Grid item xs={12} sm={6} className='ang-sec4-img'>
+            <Grid item xs={6} sm={6} className='ang-sec4-img'>
               <div className='ang-image-4'>
                 <img
                   className='ang-sec4-main-img'
@@ -26,7 +26,7 @@ const AgentSection4 = () => {
                 />
               </div>
             </Grid>
-            <Grid item xs={12} sm={6} className='ang-sec4-info2'>
+            <Grid item xs={6} sm={6} className='ang-sec4-info2'>
               <div className='ang-sec-info'>
                 <div className='ang-sec4-text3'>{agentSection4Data.text3}</div>
                 <div className='ang-sec4-text4'>{agentSection4Data.text4}</div>

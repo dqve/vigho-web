@@ -76,11 +76,6 @@
   max-height: 400px;
   width: 100%;
   object-fit: contain;
-  -webkit-transform: rotate(1.1deg);
-  -moz-transform: rotate(1.1deg);
-  -ms-transform: rotate(1.1deg);
-  -o-transform: rotate(1.1deg);
-  transform: rotate(1.1deg);
 }
 
 @media only screen and (max-width: 600px) {

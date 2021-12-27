@@ -158,6 +158,12 @@
   margin-right: 4px;
 }
 
+.min-screen-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sec5-input:focus {
   outline: none;
 }

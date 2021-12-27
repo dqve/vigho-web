@@ -33,7 +33,13 @@ const AgentHeader = () => {
         <NavLink className='logo' to='/'>
           <img src={logo} alt='logo' height='40px' width='95px' />
         </NavLink>
+
         <div className='nav-group'>
+          <div className='ham1'></div>
+          <div className='ham2'></div>
+        </div>
+
+        <div className='nav-group2'>
           <div className='header-agent-text'>Privacy Policy</div>
           <div className='header-agent-text'>Terms & Conditions</div>
           {window.innerWidth > 600 ? (

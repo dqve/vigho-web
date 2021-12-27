@@ -13,7 +13,11 @@ const AgentSection6 = () => {
         </span>
         <span>{agentSection6Data.text3}</span>
       </div>
-      <div className='ang-6-text4'>{agentSection6Data.text4}</div>
+      <div className='ang-6-text4'>
+        {window.innerWidth > 600
+          ? agentSection6Data.text4
+          : agentSection6Data.text4min}
+      </div>
 
       <AgentButton text='Get Started' />
     </div>

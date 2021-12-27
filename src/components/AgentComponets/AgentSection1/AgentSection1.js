@@ -8,7 +8,7 @@ const AgentSection1 = () => {
   return (
     <div className='agn-sec1-con'>
       <Grid container='ang-main'>
-        <Grid item xs={12} sm={6} className='ang-sec1-info'>
+        <Grid item xs={12} sm={6} lg={6} className='ang-sec1-info'>
           <div className='ang-text-con'>
             <div className='ang-text1'>
               {agentSection1Data.text1}
@@ -28,7 +28,7 @@ const AgentSection1 = () => {
             </div>
           </div>
         </Grid>
-        <Grid item md={0} lg={6} className='ang-sec1Image'>
+        <Grid item xs={12} sm={6} lg={6} className='ang-sec1Image'>
           <div className='ang-image'>
             <img
               alt='mockup'

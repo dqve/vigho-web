@@ -11,7 +11,9 @@ const AgentSection3 = () => {
         <Grid item xs={12} sm={6} className='ang-sec3-info'>
           <div className='ang-sec3-wrap'>
             <div className='why-you-should-become-a-vigho-agent gtwalsheimpro-bold-licorice-50px-2'>
-              {agentSection3Data.text1}
+              {window.innerWidth < 600
+                ? agentSection3Data.text1sm
+                : agentSection3Data.text1}
             </div>
             <div className='ang-sec2-text4'>{agentSection3Data.text2}</div>
             <div className='ang-btn'>

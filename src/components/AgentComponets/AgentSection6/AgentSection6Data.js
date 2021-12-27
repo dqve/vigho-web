@@ -8,6 +8,7 @@ export const agentSection6Data = {
       And make more money.
     </>
   ),
+  text4min: <>Make transfers, withdrawals, and pay bills for your customers.</>,
 
   text5: (
     <>

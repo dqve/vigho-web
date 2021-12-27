@@ -34,11 +34,6 @@
   max-width: 430px;
   width: 100%;
   object-fit: contain;
-  -webkit-transform: rotate(1.1deg);
-  -moz-transform: rotate(1.1deg);
-  -ms-transform: rotate(1.1deg);
-  -o-transform: rotate(1.1deg);
-  transform: rotate(1.1deg);
 }
 
 .ang-sec2-text2 {
@@ -88,6 +83,7 @@
   margin: 10px;
 }
 .ang-min-img {
+  margin: 10px;
 }
 
 .ang-min-text1 {
@@ -104,7 +100,7 @@
   line-height: 18px;
   font-size: 13px;
   margin-top: 10px;
-  font-weight: 400;
+  font-weight: 600;
   color: #111111;
   opacity: 0.6;
 }
@@ -115,7 +111,7 @@
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) {
   .empty {
     display: none;
   }
@@ -129,14 +125,29 @@
     margin-top: 3rem;
   }
   .ang-sec2-row {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-inline: 0.5rem;
   }
 
+  .ang-min-text2 {
+    font-weight: 700;
+  }
   .ang-sec2-img {
     display: flex;
     justify-content: center !important;
     align-items: center !important;
+  }
+  .why-you-should-become-a-vigho-agent {
+    letter-spacing: 0;
+    line-height: 28px;
+  }
+  .gtwalsheimpro-bold-licorice-50px-2 {
+    font-size: 21px;
+  }
+  .gtwalsheimpro-bold-green-haze-50px {
+    font-size: 21px;
+  }
+  .ang-sec2-text4 {
+    font-weight: 700;
   }
 }

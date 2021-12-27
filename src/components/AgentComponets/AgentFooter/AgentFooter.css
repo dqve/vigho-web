@@ -89,14 +89,22 @@
   margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) {
   .ang-ft-wrapper {
     flex-direction: column;
+    align-items: flex-start;
+  }
+  .ang-ft-social {
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+  .ang-social-icon-group {
+    margin-top: 0.4rem;
   }
   .contact-con {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+    align-items: flex-start;
+    margin-top: 1rem;
   }
 }

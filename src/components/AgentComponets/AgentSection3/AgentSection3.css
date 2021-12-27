@@ -31,7 +31,10 @@
   display: flex;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) {
+  .agn-sec3-con {
+    margin-top: 2rem;
+  }
   .ang-sec3-info {
     justify-content: center;
     align-items: center;
@@ -42,8 +45,14 @@
     margin-right: 0;
   }
 
+  .ang-sec3-info {
+    order: 2;
+    margin-top: 1rem !important;
+  }
+
   .ang-sec3-img {
     display: flex;
+    order: 1;
     justify-content: center !important;
     align-items: center !important;
   }

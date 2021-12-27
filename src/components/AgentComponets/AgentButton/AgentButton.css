@@ -33,3 +33,18 @@
 }
 .agent-sec3-text {
 }
+
+@media only screen and (max-width: 700px) {
+  .agent-btn {
+    width: 200px;
+    height: 55px;
+  }
+  .agent-sec3-btn {
+    width: 200px;
+    height: 55px;
+  }
+
+  .agent-text {
+    font-size: 14px;
+  }
+}

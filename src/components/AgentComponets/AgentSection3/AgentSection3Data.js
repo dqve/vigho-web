@@ -7,6 +7,7 @@ export const agentSection3Data = {
       <br /> support.
     </>
   ),
+  text1sm: <>Peerless Customer support.</>,
   text2: (
     <>
       Be reminded that we are in this together.

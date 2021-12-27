@@ -5,6 +5,13 @@
   flex-direction: row;
   /* margin-inline: 20px; */
 }
+.nav-group2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  /* margin-inline: 20px; */
+}
 .header-agent-text {
   text-align: center;
   display: flex;
@@ -29,7 +36,43 @@
 @media only screen and (max-width: 700px) {
   .nav-bar2 {
     margin-inline: 1.5rem;
+    /* justify-content: center;
+    align-items: flex-start; */
   }
+
+  .nav-group2 {
+    display: none;
+  }
+  .nav-group {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 21px;
+    cursor: pointer;
+  }
+
+  .ham1 {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    border-color: rgb(17, 17, 17);
+    border-width: 2.7px;
+    border-style: solid;
+    border-radius: 12px;
+    border-bottom: none;
+    margin-bottom: 5px;
+  }
+
+  .ham2 {
+    border-color: rgb(17, 17, 17);
+    border-width: 2.7px;
+    border-style: solid;
+    border-radius: 12px;
+    width: 60%;
+    border-bottom: none;
+  }
+
   .show-btn {
     display: none;
   }

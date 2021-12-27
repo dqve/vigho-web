@@ -24,3 +24,11 @@
   font-size: 14.6px;
   line-height: 20px;
 }
+@media only screen and (max-width: 600px) {
+  .ang-6-con {
+    margin-inline: 1rem;
+  }
+  .ang-6-con {
+    margin-top: 3rem;
+  }
+}

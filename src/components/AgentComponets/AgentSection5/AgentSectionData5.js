@@ -10,8 +10,7 @@ export const agentSection5Data = {
 
   text2: (
     <>
-      Be the first to know when we launch mobile <br /> apps for both android
-      and iOS
+      Be the first to know when we launch mobile apps for both android and iOS
     </>
   ),
 
