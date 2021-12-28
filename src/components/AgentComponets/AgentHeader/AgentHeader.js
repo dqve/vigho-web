@@ -1,13 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../../../assets/logo.svg'
 import AgentButton from '../AgentButton/AgentButton.js'
-
 import { useEffect } from 'react'
 import './AgentHeader.css'
 import { NavLink } from 'react-router-dom'
 
-const AgentHeader = () => {
-  const [scrolled, setScrolled] = React.useState(false)
+const AgentHeader = ({ handleShow }) => {
+  const [scrolled, setScrolled] = useState(false)
 
   const handleScroll = () => {
     const offset = window.scrollY
@@ -34,7 +33,7 @@ const AgentHeader = () => {
           <img src={logo} alt='logo' height='40px' width='95px' />
         </NavLink>
 
-        <div className='nav-group'>
+        <div className='nav-group' onClick={handleShow}>
           <div className='ham1'></div>
           <div className='ham2'></div>
         </div>
