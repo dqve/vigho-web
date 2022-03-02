@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="270" height="270" viewBox="0 0 270 270">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_666" data-name="Rectangle 666" width="270" height="270" rx="135" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+    </clipPath>
+  </defs>
+  <g id="bg" transform="translate(0 0.281)" opacity="0.3">
+    <rect id="Rectangle_666-2" data-name="Rectangle 666" width="270" height="270" rx="135" transform="translate(0 -0.281)" fill="#fff"/>
+    <g id="bg-2" data-name="bg" transform="translate(0 -0.281)" clip-path="url(#clip-path)">
+      <g id="Group_14" data-name="Group 14" transform="translate(-62.34 -50.126)">
+        <path id="Line_26" data-name="Line 26" d="M0,0H372.616" transform="translate(0 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_28" data-name="Line 28" d="M0,0H372.616" transform="translate(27.707 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_30" data-name="Line 30" d="M0,0H372.616" transform="translate(55.413 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_32" data-name="Line 32" d="M0,0H372.616" transform="translate(83.12 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_34" data-name="Line 34" d="M0,0H372.616" transform="translate(110.827 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_36" data-name="Line 36" d="M0,0H372.616" transform="translate(138.534 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_42" data-name="Line 42" d="M0,0H372.616" transform="translate(235.507 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_49" data-name="Line 49" d="M0,0H372.616" transform="translate(332.481 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_38" data-name="Line 38" d="M0,0H372.616" transform="translate(166.24 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_43" data-name="Line 43" d="M0,0H372.616" transform="translate(263.214 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_50" data-name="Line 50" d="M0,0H372.616" transform="translate(360.188 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_40" data-name="Line 40" d="M0,0H372.616" transform="translate(193.947 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_44" data-name="Line 44" d="M0,0H372.616" transform="translate(290.921 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_51" data-name="Line 51" d="M0,0H372.616" transform="translate(387.894 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_27" data-name="Line 27" d="M0,0H372.616" transform="translate(13.853 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_29" data-name="Line 29" d="M0,0H372.616" transform="translate(41.56 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_31" data-name="Line 31" d="M0,0H372.616" transform="translate(69.267 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_33" data-name="Line 33" d="M0,0H372.616" transform="translate(96.974 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_35" data-name="Line 35" d="M0,0H372.616" transform="translate(124.68 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_45" data-name="Line 45" d="M0,0H372.616" transform="translate(221.654 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_52" data-name="Line 52" d="M0,0H372.616" transform="translate(318.627 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_37" data-name="Line 37" d="M0,0H372.616" transform="translate(152.387 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_46" data-name="Line 46" d="M0,0H372.616" transform="translate(249.361 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_53" data-name="Line 53" d="M0,0H372.616" transform="translate(346.334 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_39" data-name="Line 39" d="M0,0H372.616" transform="translate(180.094 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_47" data-name="Line 47" d="M0,0H372.616" transform="translate(277.067 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_54" data-name="Line 54" d="M0,0H372.616" transform="translate(374.041 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_41" data-name="Line 41" d="M0,0H372.616" transform="translate(207.8 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_48" data-name="Line 48" d="M0,0H372.616" transform="translate(304.774 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+        <path id="Line_55" data-name="Line 55" d="M0,0H372.616" transform="translate(401.748 372.616) rotate(-90)" fill="none" stroke="#15a05d" stroke-width="1" stroke-dasharray="0 0"/>
+      </g>
+    </g>
+  </g>
+</svg>
