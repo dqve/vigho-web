@@ -37,11 +37,11 @@ const Home = () => {
   const handleShow = () => setShow(true)
   return (
     <div>
-      <header className='header' id='nav'>
+      <header className='header-home' id='nav'>
         <div className='header__container'>
           {/* navigation */}
           <div className='nav__container'>
-            <nav className='navigation'>
+            <nav className='navigation-home'>
               <div className='brand'>
                 <a href='#'>
                   <img
@@ -52,7 +52,7 @@ const Home = () => {
                   <span className='brand__logo-text'>Vigho</span>
                 </a>
               </div>
-              <ul className='navigation__lists'>
+              <ul className='navigation__lists-home'>
                 <li className='navigation__list navig__active'>
                   <a href='#' className='navigation__link'>
                     About
@@ -169,7 +169,7 @@ const Home = () => {
           {/* navigation ends */}
         </div>
         {/* hero section */}
-        <div className='hero__container'>
+        <div className='hero__container-home'>
           <section className='hero__section'>
             <div className='hero__section--contents'>
               <h1>Chop Now, Pay Later</h1>
@@ -590,7 +590,7 @@ const Home = () => {
         <div className='footer__content'>
           <div className='footer__content--logo'>
             <a href='#'>
-              <img src='img/Vigho Icon white.svg' alt='footer logo' />
+              <img src='img/Vigho-Icon-white.svg' alt='footer logo' />
               <span className='footer__logo-text'>Vigho</span>
             </a>
           </div>

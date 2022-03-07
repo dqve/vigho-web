@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import './terms.css'
+import './terms.css'
 
 const Terms = () => {
   useEffect(() => {
@@ -27,7 +27,7 @@ const Terms = () => {
         {/* navigation */}
         <nav className='navigation'>
           <div className='brand'>
-            <a href='home'>
+            <a href='/'>
               <img
                 src='img/logo.svg'
                 alt='Vigho Logo'
@@ -57,7 +57,7 @@ const Terms = () => {
           <div className='mobile__nav'>
             <div className='navContents'>
               <div className='mobile__brand'>
-                <a href='home' className='mobile-list'>
+                <a href='/' className='mobile-list'>
                   <img
                     src='img/logo.svg'
                     alt='Vigho Logo'
@@ -92,7 +92,7 @@ const Terms = () => {
         {/* navigation ends */}
       </header>
       <main>
-        <div className='hero__container'>
+        <div className='hero__container-terms'>
           <section className='hero__section privacy__hero'>
             <h1>Terms &amp; Conditions</h1>
             <h4>Terms and Conditions</h4>
@@ -283,7 +283,7 @@ const Terms = () => {
         <div className='footer__content'>
           <div className='footer__content--logo'>
             <a href='index.html'>
-              <img src='img/Vigho Icon white.svg' alt='footer logo' />
+              <img src='img/Vigho-Icon-white.svg' alt='footer logo' />
               <span className='footer__logo-text'>Vigho</span>
             </a>
           </div>

@@ -1037,7 +1037,7 @@ header {
   }
 }
 
-.hero__container {
+.hero__container-privacy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1053,25 +1053,25 @@ header {
   flex-direction: column;
 }
 
-.hero__container .hero__section {
+.hero__container-privacy .hero__section {
   width: 90%;
   max-width: 92rem;
   margin-top: 4rem;
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section {
+  .hero__container-privacy .hero__section {
     max-width: 110rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section {
+  .hero__container-privacy .hero__section {
     max-width: 135rem;
   }
 }
 
-.hero__container .hero__section h1 {
+.hero__container-privacy .hero__section h1 {
   font-size: 6.7rem;
   font-weight: 900;
   text-align: center;
@@ -1079,7 +1079,7 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__section h1 {
+  .hero__container-privacy .hero__section h1 {
     margin: 3rem 0;
     font-size: 4.5rem;
     padding: 0 3rem;
@@ -1087,47 +1087,48 @@ header {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section h1 {
+  .hero__container-privacy .hero__section h1 {
     margin: 8rem 0;
     font-size: 7rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section h1 {
+  .hero__container-privacy .hero__section h1 {
     margin: 10rem 0;
     font-size: 10rem;
   }
 }
 
-.hero__container .hero__section h4 {
+.hero__container-privacy .hero__section h4 {
   font-size: 2.8rem;
   text-align: center;
   margin-bottom: 5rem;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__section h4 {
+  .hero__container-privacy .hero__section h4 {
     font-size: 2rem;
     margin-bottom: 3rem;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section h4 {
+  .hero__container-privacy .hero__section h4 {
     font-size: 3.5rem;
     margin-bottom: 5.4rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section h4 {
+  .hero__container-privacy .hero__section h4 {
     font-size: 4rem;
     margin-bottom: 6rem;
   }
 }
 
-.hero__container .hero__section h2 {
+.hero__container-privacy .hero__section h2 {
   font-size: 2rem;
   font-weight: 700;
   margin: 3rem 0;
@@ -1135,18 +1136,18 @@ header {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section h2 {
+  .hero__container-privacy .hero__section h2 {
     font-size: 2.5rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section h2 {
+  .hero__container-privacy .hero__section h2 {
     font-size: 3rem;
   }
 }
 
-.hero__container .hero__section p {
+.hero__container-privacy .hero__section p {
   max-width: 84rem;
   font-size: 2rem;
   font-weight: 400;
@@ -1156,13 +1157,13 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__section p {
+  .hero__container-privacy .hero__section p {
     font-size: 2rem;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section p {
+  .hero__container-privacy .hero__section p {
     font-size: 2.5rem;
     line-height: 4rem;
     max-width: 105rem;
@@ -1170,7 +1171,7 @@ header {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section p {
+  .hero__container-privacy .hero__section p {
     font-size: 3rem;
     line-height: 4.3rem;
     max-width: 130rem;

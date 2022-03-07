@@ -57,7 +57,7 @@ body {
   color: #111111;
 }
 
-.navigation {
+.navigation-home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,24 +79,24 @@ body {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation {
+  .navigation-home {
     width: 90%;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation {
+  .navigation-home {
     width: 80%;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation {
+  .navigation-home {
     width: 78%;
   }
 }
 
-.navigation .brand a {
+.navigation-home .brand a {
   display: inline-block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,57 +111,57 @@ body {
   text-decoration: none;
 }
 
-.navigation .brand__logo-img {
+.navigation-home .brand__logo-img {
   height: 65px;
   width: 65px;
   margin-right: 1rem;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .brand__logo-img {
+  .navigation-home .brand__logo-img {
     width: 50px;
     height: 50px;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation .brand__logo-img {
+  .navigation-home .brand__logo-img {
     width: 75px;
     height: 75px;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation .brand__logo-img {
+  .navigation-home .brand__logo-img {
     width: 90px;
     height: 90px;
   }
 }
 
-.navigation .brand__logo-text {
+.navigation-home .brand__logo-text {
   font-size: 2.4rem;
   font-weight: 700;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .brand__logo-text {
+  .navigation-home .brand__logo-text {
     font-size: 3rem;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation .brand__logo-text {
+  .navigation-home .brand__logo-text {
     font-size: 3.7rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation .brand__logo-text {
+  .navigation-home .brand__logo-text {
     font-size: 3.9rem;
   }
 }
 
-.navigation__lists {
+.navigation__lists-home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,16 +175,16 @@ body {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation__lists {
+  .navigation__lists-home {
     display: none;
   }
 }
 
-.navigation__lists .navigation__list {
+.navigation__lists-home .navigation__list {
   list-style: none;
 }
 
-.navigation__lists .navigation__link {
+.navigation__lists-home .navigation__link {
   text-decoration: none;
   margin: 0 2.7rem;
   display: inline-block;
@@ -194,37 +194,37 @@ body {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation__lists .navigation__link {
+  .navigation__lists-home .navigation__link {
     font-size: 2rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation__lists .navigation__link {
+  .navigation__lists-home .navigation__link {
     font-size: 2.2rem;
   }
 }
 
-.navigation__lists .navigation__link,
-.navigation__lists .navigation__link:after,
-.navigation__lists .navigation__link:before {
+.navigation__lists-home .navigation__link,
+.navigation__lists-home .navigation__link:after,
+.navigation__lists-home .navigation__link:before {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.navigation__lists .navigation__link:hover {
+.navigation__lists-home .navigation__link:hover {
   color: #111111;
 }
 
-.navigation__lists .nav__active {
+.navigation__lists-home .nav__active {
   color: rgba(17, 17, 17, 0.7);
 }
 
-.navigation__lists .navigation__link {
+.navigation__lists-home .navigation__link {
   position: relative;
 }
 
-.navigation__lists .navigation__link:after {
+.navigation__lists-home .navigation__link:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -237,11 +237,11 @@ body {
   height: 1px;
 }
 
-.navigation__lists .navigation__link:hover:after {
+.navigation__lists-home .navigation__link:hover:after {
   width: 100%;
 }
 
-.navigation__lists .navigation__button--container .button {
+.navigation__lists-home .navigation__button--container .button {
   background: #111111;
   border: 1px solid #111111;
   outline: none;
@@ -267,12 +267,12 @@ body {
   align-items: center;
 }
 
-.navigation__lists .navigation__button--container .button svg {
+.navigation__lists-home .navigation__button--container .button svg {
   width: 2rem;
   margin-left: 1rem;
 }
 
-.navigation__lists .navigation__button--container .button:hover {
+.navigation__lists-home .navigation__button--container .button:hover {
   background: #ffffff;
   color: #111111;
   -webkit-transition: all 0.2 ease;
@@ -280,7 +280,7 @@ body {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation__lists .navigation__button--container .button {
+  .navigation__lists-home .navigation__button--container .button {
     width: 170px;
     height: 47px;
     font-size: 1.9rem;
@@ -288,7 +288,7 @@ body {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation__lists .navigation__button--container .button {
+  .navigation__lists-home .navigation__button--container .button {
     width: 170px;
     height: 50px;
     font-size: 1.7rem;
@@ -296,60 +296,60 @@ body {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation__lists .navigation__button--container .button {
+  .navigation__lists-home .navigation__button--container .button {
     width: 200px;
     height: 55px;
     font-size: 1.9rem;
   }
 }
 
-.navigation .mobile__nav {
+.navigation-home .mobile__nav {
   display: none;
   position: relative;
   z-index: 99;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .mobile__nav {
+  .navigation-home .mobile__nav {
     display: block;
   }
 }
 
-.navigation .mobile__nav .hamburger {
+.navigation-home .mobile__nav .hamburger {
   cursor: pointer;
   z-index: 999;
   position: relative;
 }
 
-.navigation .mobile__nav .hamburger.active span {
+.navigation-home .mobile__nav .hamburger.active span {
   background-color: #111111;
   position: fixed;
   right: 2rem;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .mobile__nav .hamburger.active span {
+  .navigation-home .mobile__nav .hamburger.active span {
     right: 5rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
-  .navigation .mobile__nav .hamburger.active span {
+  .navigation-home .mobile__nav .hamburger.active span {
     right: 2rem;
   }
 }
 
-.navigation .mobile__nav .hamburger.active span:nth-child(1) {
+.navigation-home .mobile__nav .hamburger.active span:nth-child(1) {
   -webkit-transform: translateY(0) rotate(-45deg);
   transform: translateY(0) rotate(-45deg);
 }
 
-.navigation .mobile__nav .hamburger.active span:nth-child(2) {
+.navigation-home .mobile__nav .hamburger.active span:nth-child(2) {
   -webkit-transform: translateY(-1px) rotate(45deg);
   transform: translateY(-1px) rotate(45deg);
 }
 
-.navigation .mobile__nav .hamburger span {
+.navigation-home .mobile__nav .hamburger span {
   width: 2.5rem;
   height: 0.2rem;
   display: block;
@@ -358,11 +358,11 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.navigation .mobile__nav .hamburger span:first-child {
+.navigation-home .mobile__nav .hamburger span:first-child {
   margin-bottom: 1rem;
 }
 
-.navigation .mobile__nav .navContents {
+.navigation-home .mobile__nav .navContents {
   width: 100%;
   height: 100vh;
   background-color: #ffffff;
@@ -378,11 +378,11 @@ body {
   opacity: 1;
 }
 
-.navigation .mobile__nav .navContents .mobile__brand {
+.navigation-home .mobile__nav .navContents .mobile__brand {
   position: relative;
 }
 
-.navigation .mobile__nav .navContents .mobile__brand a {
+.navigation-home .mobile__nav .navContents .mobile__brand a {
   display: inline-block;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -400,40 +400,40 @@ body {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .mobile__nav .navContents .mobile__brand a {
+  .navigation-home .mobile__nav .navContents .mobile__brand a {
     padding: 2rem 5rem;
   }
 }
 
 @media only screen and (max-width: 37.5em) {
-  .navigation .mobile__nav .navContents .mobile__brand a {
+  .navigation-home .mobile__nav .navContents .mobile__brand a {
     padding: 2rem 2rem;
   }
 }
 
-.navigation .mobile__nav .navContents .mobile__brand--img {
+.navigation-home .mobile__nav .navContents .mobile__brand--img {
   height: 65px;
   margin-right: 1rem;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .mobile__nav .navContents .mobile__brand--img {
+  .navigation-home .mobile__nav .navContents .mobile__brand--img {
     height: 50px;
   }
 }
 
-.navigation .mobile__nav .navContents .mobile__brand--text {
+.navigation-home .mobile__nav .navContents .mobile__brand--text {
   font-size: 2.4rem;
   font-weight: 700;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .mobile__nav .navContents .mobile__brand--text {
+  .navigation-home .mobile__nav .navContents .mobile__brand--text {
     font-size: 3rem;
   }
 }
 
-.navigation .mobile__nav .navContents ul {
+.navigation-home .mobile__nav .navContents ul {
   position: relative;
   top: 25%;
   display: -webkit-box;
@@ -449,28 +449,28 @@ body {
   padding-left: 5rem;
 }
 
-.navigation .mobile__nav .navContents ul .nav-active a {
+.navigation-home .mobile__nav .navContents ul .nav-active a {
   color: #15a05d;
 }
 
-.navigation .mobile__nav .navContents ul li {
+.navigation-home .mobile__nav .navContents ul li {
   padding: 23px 0;
   list-style-type: none;
   font-size: 2.8rem;
   font-weight: 500;
 }
 
-.navigation .mobile__nav .navContents ul li a {
+.navigation-home .mobile__nav .navContents ul li a {
   color: #111111;
   text-decoration: none;
 }
 
-.navigation .mobile__nav .navContents ul li a:hover,
-.navigation .mobile__nav .navContents ul li a:focus {
+.navigation-home .mobile__nav .navContents ul li a:hover,
+.navigation-home .mobile__nav .navContents ul li a:focus {
   color: #15a05d;
 }
 
-.navigation .mobile__nav .navContents ul .mobile__button {
+.navigation-home .mobile__nav .navContents ul .mobile__button {
   background: #111111;
   border: 1px solid #111111;
   outline: none;
@@ -499,12 +499,12 @@ body {
   width: 160px;
 }
 
-.navigation .mobile__nav .navContents ul .mobile__button svg {
+.navigation-home .mobile__nav .navContents ul .mobile__button svg {
   width: 2rem;
   margin-left: 1rem;
 }
 
-.navigation .mobile__nav .navContents ul .mobile__button:hover {
+.navigation-home .mobile__nav .navContents ul .mobile__button:hover {
   background: #ffffff;
   color: #111111;
   -webkit-transition: all 0.2 ease;
@@ -512,7 +512,7 @@ body {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation .mobile__nav .navContents ul .mobile__button {
+  .navigation-home .mobile__nav .navContents ul .mobile__button {
     width: 170px;
     height: 47px;
     font-size: 1.9rem;
@@ -520,7 +520,7 @@ body {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation .mobile__nav .navContents ul .mobile__button {
+  .navigation-home .mobile__nav .navContents ul .mobile__button {
     width: 170px;
     height: 50px;
     font-size: 1.7rem;
@@ -528,14 +528,14 @@ body {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation .mobile__nav .navContents ul .mobile__button {
+  .navigation-home .mobile__nav .navContents ul .mobile__button {
     width: 200px;
     height: 55px;
     font-size: 1.9rem;
   }
 }
 
-.navigation .mobile__nav .activate {
+.navigation-home .mobile__nav .activate {
   visibility: visible;
   left: 0;
 }
@@ -1034,7 +1034,7 @@ body {
   width: 100%;
 }
 
-header {
+.header-home {
   background-image: url('../../../public/img/bg-min.png');
   background-size: cover;
   background-position: center;
@@ -1050,7 +1050,7 @@ header {
   overflow-y: hidden;
 }
 
-.scroll .nav__container .navigation__lists {
+.scroll .nav__container .navigation__lists-home {
   color: #111111;
 }
 
@@ -1082,7 +1082,7 @@ header {
   z-index: 999;
 }
 
-.nav__container .navigation__lists {
+.nav__container .navigation__lists-home {
   color: #ffffff;
 }
 
@@ -1139,7 +1139,7 @@ header {
   }
 }
 
-.hero__container {
+.hero__container-home {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1159,7 +1159,7 @@ header {
   transform: translate(-50%, -50%);
 }
 
-.hero__container .hero__section {
+.hero__container-home .hero__section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1178,7 +1178,7 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__section {
+  .hero__container-home .hero__section {
     font-size: 4.4rem;
     max-width: 30rem;
     margin: 0 auto;
@@ -1186,7 +1186,7 @@ header {
   }
 }
 
-.hero__container .hero__section--contents h1 {
+.hero__container-home .hero__section--contents h1 {
   font-size: 6rem;
   font-weight: 900;
   position: relative;
@@ -1194,7 +1194,7 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__section--contents h1 {
+  .hero__container-home .hero__section--contents h1 {
     font-size: 5rem;
     max-width: 30rem;
     margin: auto;
@@ -1202,18 +1202,18 @@ header {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section--contents h1 {
+  .hero__container-home .hero__section--contents h1 {
     font-size: 8rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section--contents h1 {
+  .hero__container-home .hero__section--contents h1 {
     font-size: 9rem;
   }
 }
 
-.hero__container .hero__section--contents h1::after {
+.hero__container-home .hero__section--contents h1::after {
   content: 'Chop Now, Pay Later';
   position: absolute;
   color: #15a05d;
@@ -1223,18 +1223,18 @@ header {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section--contents h1::after {
+  .hero__container-home .hero__section--contents h1::after {
     top: 0.3rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section--contents h1::after {
+  .hero__container-home .hero__section--contents h1::after {
     top: 0.3rem;
   }
 }
 
-.hero__container .hero__section--contents p {
+.hero__container-home .hero__section--contents p {
   margin: 1rem auto 2rem;
   font-size: 2rem;
   line-height: 2.8rem;
@@ -1242,14 +1242,14 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__section--contents p {
+  .hero__container-home .hero__section--contents p {
     font-size: 1.9rem;
     margin: 2rem auto;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section--contents p {
+  .hero__container-home .hero__section--contents p {
     font-size: 2.5rem;
     line-height: 4rem;
     max-width: 60rem;
@@ -1257,18 +1257,18 @@ header {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section--contents p {
+  .hero__container-home .hero__section--contents p {
     font-size: 3rem;
     line-height: 4.3rem;
     max-width: 74rem;
   }
 }
 
-.hero__container .hero__section--contents .hero__content--button {
+.hero__container-home .hero__section--contents .hero__content--button {
   display: inline-block;
 }
 
-.hero__container .hero__section--contents .button {
+.hero__container-home .hero__section--contents .button {
   background: #111111;
   border: 1px solid #111111;
   outline: none;
@@ -1300,12 +1300,12 @@ header {
   border: none;
 }
 
-.hero__container .hero__section--contents .button svg {
+.hero__container-home .hero__section--contents .button svg {
   width: 2rem;
   margin-left: 1rem;
 }
 
-.hero__container .hero__section--contents .button:hover {
+.hero__container-home .hero__section--contents .button:hover {
   background: #ffffff;
   color: #111111;
   -webkit-transition: all 0.2 ease;
@@ -1313,7 +1313,7 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__section--contents .button {
+  .hero__container-home .hero__section--contents .button {
     width: 170px;
     height: 47px;
     font-size: 1.9rem;
@@ -1321,7 +1321,7 @@ header {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__section--contents .button {
+  .hero__container-home .hero__section--contents .button {
     width: 170px;
     height: 50px;
     font-size: 1.7rem;
@@ -1329,21 +1329,21 @@ header {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__section--contents .button {
+  .hero__container-home .hero__section--contents .button {
     width: 200px;
     height: 55px;
     font-size: 1.9rem;
   }
 }
 
-.hero__container .hero__section--contents .button:hover {
+.hero__container-home .hero__section--contents .button:hover {
   background: #111111;
   color: #ffffff;
   -webkit-transition: all 0.2 ease;
   transition: all 0.2 ease;
 }
 
-.hero__container .hero__section--contents .button svg {
+.hero__container-home .hero__section--contents .button svg {
   width: 2rem;
   margin-left: 1rem;
 }

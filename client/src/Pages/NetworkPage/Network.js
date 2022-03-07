@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import './network.css'
+import './network.css'
 
 const Network = () => {
   useEffect(() => {
@@ -23,11 +23,11 @@ const Network = () => {
   }, [])
   return (
     <div>
-      <header className='container header'>
+      <header className='container header-network'>
         {/* navigation */}
         <nav className='navigation'>
           <div className='brand'>
-            <a href='home'>
+            <a href='/'>
               <img
                 src='img/logo.svg'
                 alt='Vigho Logo'
@@ -36,7 +36,7 @@ const Network = () => {
               <span className='brand__logo-text'>Vigho</span>
             </a>
           </div>
-          <ul className='navigation__lists'>
+          <ul className='navigation__lists-network'>
             <li className='navigation__list navig__active'>
               <a href='privacy' className='navigation__link'>
                 Privacy Policy
@@ -60,7 +60,7 @@ const Network = () => {
           <div className='mobile__nav'>
             <div className='navContents'>
               <div className='mobile__brand'>
-                <a href='home' className='mobile-list'>
+                <a href='/' className='mobile-list'>
                   <img
                     src='img/logo.svg'
                     alt='Vigho Logo'
@@ -94,7 +94,7 @@ const Network = () => {
         </nav>
         {/* navigation ends */}
         {/* hero */}
-        <div className='hero__container container'>
+        <div className='hero__container-network container'>
           <section className='hero__content'>
             <div className='hero__content--texts'>
               <h1>
@@ -154,7 +154,7 @@ const Network = () => {
       </header>
       <main className='main__container'>
         <span className='line__1'>
-          <img src='img/lines 2.svg' alt='' />
+          <img src='img/lines2.svg' alt='' />
         </span>
         {/* agent */}
         <div className='agent__container container'>
@@ -305,7 +305,7 @@ const Network = () => {
             </section>
           </section>
           <span className='line__2'>
-            <img src='img/Lines 3.svg' alt='' />
+            <img src='img/Lines3.svg' alt='' />
           </span>
         </div>
         {/* agent ends */}
@@ -398,14 +398,14 @@ const Network = () => {
               </div>
             </div>
             <div className='newsletter__section--image'>
-              <img src='img/Phone 3.svg' alt='wallet' />
+              <img src='img/Phone3.svg' alt='wallet' />
             </div>
           </section>
           <div className='line__3'>
-            <img src='img/lines 2.svg' alt='line' />
+            <img src='img/lines2.svg' alt='line' />
           </div>
           <div className='line__4'>
-            <img src='img/lines 2.svg' alt='line' />
+            <img src='img/lines2.svg' alt='line' />
           </div>
         </div>
         {/* newsletter__conatiner ends*/}
@@ -437,7 +437,7 @@ const Network = () => {
         <div className='footer__content'>
           <div className='footer__content--logo'>
             <a href='#'>
-              <img src='img/Vigho Icon white.svg' alt='footer logo' />
+              <img src='img/Vigho-Icon-white.svg' alt='footer logo' />
               <span className='footer__logo-text'>Vigho</span>
             </a>
           </div>

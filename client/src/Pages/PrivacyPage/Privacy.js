@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-// import './privacy.css'
+import './privacy.css'
 
 const Privacy = () => {
   useEffect(() => {
@@ -27,7 +27,7 @@ const Privacy = () => {
         {/* navigation */}
         <nav className='navigation'>
           <div className='brand'>
-            <a href='home'>
+            <a href='/'>
               <img
                 src='img/logo.svg'
                 alt='Vigho Logo'
@@ -57,7 +57,7 @@ const Privacy = () => {
           <div className='mobile__nav'>
             <div className='navContents'>
               <div className='mobile__brand'>
-                <a href='home' className='mobile-list'>
+                <a href='/' className='mobile-list'>
                   <img
                     src='img/logo.svg'
                     alt='Vigho Logo'
@@ -92,7 +92,7 @@ const Privacy = () => {
         {/* navigation ends */}
       </header>
       <main>
-        <div className='hero__container'>
+        <div className='hero__container-privacy'>
           <section className='hero__section privacy__hero'>
             <h1>Privacy Policy</h1>
             <h4>Information Collection</h4>
@@ -288,7 +288,7 @@ const Privacy = () => {
         <div className='footer__content'>
           <div className='footer__content--logo'>
             <a href='index.html'>
-              <img src='img/Vigho Icon white.svg' alt='footer logo' />
+              <img src='img/Vigho-Icon-white.svg' alt='footer logo' />
               <span className='footer__logo-text'>Vigho</span>
             </a>
           </div>

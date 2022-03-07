@@ -161,7 +161,7 @@ body {
   }
 }
 
-.navigation__lists {
+.navigation__lists-network {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,16 +175,16 @@ body {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation__lists {
+  .navigation__lists-network {
     display: none;
   }
 }
 
-.navigation__lists .navigation__list {
+.navigation__lists-network .navigation__list {
   list-style: none;
 }
 
-.navigation__lists .navigation__link {
+.navigation__lists-network .navigation__link {
   text-decoration: none;
   margin: 0 2.7rem;
   display: inline-block;
@@ -194,37 +194,37 @@ body {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation__lists .navigation__link {
+  .navigation__lists-network .navigation__link {
     font-size: 2rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation__lists .navigation__link {
+  .navigation__lists-network .navigation__link {
     font-size: 2.2rem;
   }
 }
 
-.navigation__lists .navigation__link,
-.navigation__lists .navigation__link:after,
-.navigation__lists .navigation__link:before {
+.navigation__lists-network .navigation__link,
+.navigation__lists-network .navigation__link:after,
+.navigation__lists-network .navigation__link:before {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
 
-.navigation__lists .navigation__link:hover {
+.navigation__lists-network .navigation__link:hover {
   color: #111111;
 }
 
-.navigation__lists .nav__active {
+.navigation__lists-network .nav__active {
   color: rgba(17, 17, 17, 0.7);
 }
 
-.navigation__lists .navigation__link {
+.navigation__lists-network .navigation__link {
   position: relative;
 }
 
-.navigation__lists .navigation__link:after {
+.navigation__lists-network .navigation__link:after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -237,11 +237,11 @@ body {
   height: 1px;
 }
 
-.navigation__lists .navigation__link:hover:after {
+.navigation__lists-network .navigation__link:hover:after {
   width: 100%;
 }
 
-.navigation__lists .navigation__button--container .button {
+.navigation__lists-network .navigation__button--container .button {
   background: #111111;
   border: 1px solid #111111;
   outline: none;
@@ -267,12 +267,12 @@ body {
   align-items: center;
 }
 
-.navigation__lists .navigation__button--container .button svg {
+.navigation__lists-network .navigation__button--container .button svg {
   width: 2rem;
   margin-left: 1rem;
 }
 
-.navigation__lists .navigation__button--container .button:hover {
+.navigation__lists-network .navigation__button--container .button:hover {
   background: #ffffff;
   color: #111111;
   -webkit-transition: all 0.2 ease;
@@ -280,7 +280,7 @@ body {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .navigation__lists .navigation__button--container .button {
+  .navigation__lists-network .navigation__button--container .button {
     width: 170px;
     height: 47px;
     font-size: 1.9rem;
@@ -288,7 +288,7 @@ body {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .navigation__lists .navigation__button--container .button {
+  .navigation__lists-network .navigation__button--container .button {
     width: 170px;
     height: 50px;
     font-size: 1.7rem;
@@ -296,7 +296,7 @@ body {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .navigation__lists .navigation__button--container .button {
+  .navigation__lists-network .navigation__button--container .button {
     width: 200px;
     height: 55px;
     font-size: 1.9rem;
@@ -1026,19 +1026,19 @@ body {
   color: #15a05d;
 }
 
-header {
+.header-network {
   position: relative;
   width: 100%;
   height: 100vh;
 }
 
 @media only screen and (max-width: 66.25em) {
-  header {
+  .header-network {
     height: 100%;
   }
 }
 
-.hero__container {
+.hero__container-network {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1057,7 +1057,7 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container {
+  .hero__container-network {
     max-width: 100%;
     position: relative;
     top: 0;
@@ -1068,18 +1068,18 @@ header {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container {
+  .hero__container-network {
     max-width: 110rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container {
+  .hero__container-network {
     max-width: 135rem;
   }
 }
 
-.hero__container .hero__content {
+.hero__container-network .hero__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1096,7 +1096,7 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content {
+  .hero__container-network .hero__content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
@@ -1108,17 +1108,17 @@ header {
   }
 }
 
-.hero__container .hero__content--texts {
+.hero__container-network .hero__content--texts {
   margin-top: 10rem;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content--texts {
+  .hero__container-network .hero__content--texts {
     margin-top: 0rem;
   }
 }
 
-.hero__container .hero__content--texts h1 {
+.hero__container-network .hero__content--texts h1 {
   font-size: 6.7rem;
   font-weight: 900;
   position: relative;
@@ -1126,27 +1126,27 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content--texts h1 {
+  .hero__container-network .hero__content--texts h1 {
     font-size: 4.5rem;
     width: initial;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__content--texts h1 {
+  .hero__container-network .hero__content--texts h1 {
     max-width: 75rem;
     font-size: 7rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__content--texts h1 {
+  .hero__container-network .hero__content--texts h1 {
     max-width: 80rem;
     font-size: 10rem;
   }
 }
 
-.hero__container .hero__content--texts h1 .green__rope--img {
+.hero__container-network .hero__content--texts h1 .green__rope--img {
   width: 31rem;
   position: absolute;
   bottom: -2rem;
@@ -1154,26 +1154,26 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content--texts h1 .green__rope--img {
+  .hero__container-network .hero__content--texts h1 .green__rope--img {
     width: 22rem;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__content--texts h1 .green__rope--img {
+  .hero__container-network .hero__content--texts h1 .green__rope--img {
     width: 33rem;
     height: 4rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__content--texts h1 .green__rope--img {
+  .hero__container-network .hero__content--texts h1 .green__rope--img {
     width: 45rem;
     height: 4rem;
   }
 }
 
-.hero__container .hero__content--texts p {
+.hero__container-network .hero__content--texts p {
   font-size: 2rem;
   font-weight: 400;
   opacity: 0.7;
@@ -1182,30 +1182,30 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content--texts p {
+  .hero__container-network .hero__content--texts p {
     font-size: 1.9rem;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__content--texts p {
+  .hero__container-network .hero__content--texts p {
     font-size: 2.5rem;
     line-height: 4rem;
   }
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__content--texts p {
+  .hero__container-network .hero__content--texts p {
     font-size: 3rem;
     line-height: 4.3rem;
   }
 }
 
-.hero__container .hero__content--texts .hero__content--button {
+.hero__container-network .hero__content--texts .hero__content--button {
   display: inline-block;
 }
 
-.hero__container .hero__content--texts .button {
+.hero__container-network .hero__content--texts .button {
   background: #111111;
   border: 1px solid #111111;
   outline: none;
@@ -1231,12 +1231,12 @@ header {
   align-items: center;
 }
 
-.hero__container .hero__content--texts .button svg {
+.hero__container-network .hero__content--texts .button svg {
   width: 2rem;
   margin-left: 1rem;
 }
 
-.hero__container .hero__content--texts .button:hover {
+.hero__container-network .hero__content--texts .button:hover {
   background: #ffffff;
   color: #111111;
   -webkit-transition: all 0.2 ease;
@@ -1244,7 +1244,7 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content--texts .button {
+  .hero__container-network .hero__content--texts .button {
     width: 170px;
     height: 47px;
     font-size: 1.9rem;
@@ -1252,7 +1252,7 @@ header {
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__content--texts .button {
+  .hero__container-network .hero__content--texts .button {
     width: 170px;
     height: 50px;
     font-size: 1.7rem;
@@ -1260,19 +1260,19 @@ header {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__content--texts .button {
+  .hero__container-network .hero__content--texts .button {
     width: 200px;
     height: 55px;
     font-size: 1.9rem;
   }
 }
 
-.hero__container .hero__content--image .hero__content-mobile_img {
+.hero__container-network .hero__content--image .hero__content-mobile_img {
   display: none;
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content--image .hero__content-mobile_img {
+  .hero__container-network .hero__content--image .hero__content-mobile_img {
     display: block;
     width: 40rem;
     padding: 0 3rem;
@@ -1280,7 +1280,7 @@ header {
   }
 }
 
-.hero__container .hero__content--image .hero__content--img {
+.hero__container-network .hero__content--image .hero__content--img {
   width: 60rem;
   height: 60rem;
   margin-top: 27rem;
@@ -1288,20 +1288,20 @@ header {
 }
 
 @media only screen and (max-width: 66.25em) {
-  .hero__container .hero__content--image .hero__content--img {
+  .hero__container-network .hero__content--image .hero__content--img {
     display: none;
   }
 }
 
 @media only screen and (max-width: 350px) {
-  .hero__container .hero__content--image .hero__content--img {
+  .hero__container-network .hero__content--image .hero__content--img {
     width: 30rem;
     height: 30rem;
   }
 }
 
 @media only screen and (min-width: 93.75em) and (max-width: 112.4em) {
-  .hero__container .hero__content--image .hero__content--img {
+  .hero__container-network .hero__content--image .hero__content--img {
     width: 75rem;
     height: 75rem;
     margin-right: -15rem;
@@ -1309,7 +1309,7 @@ header {
 }
 
 @media only screen and (min-width: 112.5em) {
-  .hero__container .hero__content--image .hero__content--img {
+  .hero__container-network .hero__content--image .hero__content--img {
     width: 80rem;
     height: 80rem;
   }
